@@ -30,8 +30,6 @@ public class InfixToPostfix {
             case '*':
             case '/':
                 return 2;
-            case '^':
-                return 3;
         }
         return -1;
     }
