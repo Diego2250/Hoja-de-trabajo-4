@@ -65,6 +65,7 @@ public class InfixToPostfix {
         return result;
     }
 
+    //QUITAR ESTO DESPUES DEL MAIN//
     public void main(String[] args) {
         String exp = "A+B*(C^D-E)";
         System.out.println("Expresion Infix: " + exp);
