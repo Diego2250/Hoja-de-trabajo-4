@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -46,6 +50,27 @@ public class Main {
         conver = new InfixToPostfix(type_stack, type_list);
         calcu = new PostfixCalcu(type_stack, type_list);
 
+        ArrayList<String> operaciones = new ArrayList<String>();
+        try {
+            FileReader r = new FileReader("datos.txt");
+            BufferedReader br = new BufferedReader(r);
+            String line;
+            while((line=br.readLine())!=null){
+                operaciones.add(line);
+            }
+            br.close();
+            }
+            catch(IOException e) {
+                System.out.println("Ha ocurrido un error IO: " + e);
+            }
+
+        for (String operacione : operaciones) {
+            System.out.println("Infix: " + operacione);
+            String postfixString = conver.converter(operacione);
+            System.out.println("Postfix: " + postfixString);
+            System.out.println("Resultado: " + calcu.Evaluate(postfixString) + "\n");
+        }
 
     }
+
 }

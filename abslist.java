@@ -2,7 +2,7 @@
  * @author
  * Alejandro Azurdia, Diego Morales, Maria Ramirez
  *
- * Clase que implementa la interfaz lista
+ * Clase que implementa la interfaz lista llamada abslist para no confundirse con la List de java
  */
 
 public abstract class abslist<T> implements IList<T> {

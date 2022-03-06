@@ -22,7 +22,7 @@ public class InfixToPostfix {
         stack = d.instanceStack(tipoStack, tipoLista);
     }
 
-    public int precedence(char c){
+    private int precedence(char c){
         switch (c){
             case '+':
             case '-':
@@ -34,7 +34,7 @@ public class InfixToPostfix {
         return -1;
     }
 
-    public String infixToPostFix(String expression){
+    public String converter(String expression){
 
         String result = "";
         for (int i = 0; i <expression.length() ; i++) {
@@ -63,12 +63,5 @@ public class InfixToPostfix {
             result += stack.pull();
         }
         return result;
-    }
-
-    //QUITAR ESTO DESPUES DEL MAIN//
-    public void main(String[] args) {
-        String exp = "A+B*(C^D-E)";
-        System.out.println("Expresion Infix: " + exp);
-        System.out.println("Expresion Postfix: " + infixToPostFix(exp));
     }
 }
