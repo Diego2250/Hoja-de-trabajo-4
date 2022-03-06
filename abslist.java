@@ -5,7 +5,7 @@
  * Clase que implementa la interfaz lista
  */
 
-public abstract class List<T> implements IList<T> {
+public abstract class abslist<T> implements IList<T> {
 
     protected int count;
     protected Node<T> start;

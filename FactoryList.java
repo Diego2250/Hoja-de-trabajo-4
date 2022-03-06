@@ -8,8 +8,8 @@ import java.awt.List;
  */
 
 public class FactoryList<T> {
-    public List<T> instanceList(int type){
-        List<T> list=null;
+    public abslist<T> instanceList(int type){
+        abslist<T> list=null;
 
         if (type == 1){
             list = new SimpleList<T>();

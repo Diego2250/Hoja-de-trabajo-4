@@ -5,7 +5,7 @@
  * Clase que simula la lista doble encadenada, hereda de la clase List
  */
 
-public class DoubleList<T> extends List<T> {
+public class DoubleList<T> extends abslist<T> {
     private DoubleNode<T> start;
     private DoubleNode<T> end;
     private int count;

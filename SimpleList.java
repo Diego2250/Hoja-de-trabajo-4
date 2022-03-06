@@ -5,7 +5,7 @@
  * Clase que simula la Simplelist stack, hereda de la clase List
  */
 
-public class SimpleList<T> extends List<T> {
+public class SimpleList<T> extends abslist<T> {
     private int count;
     private Node<T> start;
     private Node<T> end;

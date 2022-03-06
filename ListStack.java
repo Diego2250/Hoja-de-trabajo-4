@@ -7,7 +7,7 @@ import java.util.ListResourceBundle;
  * Clase que simula la lista stack, hereda de la clase List
  */
 
-public class ListStack<T> extends List<T> {
+public class ListStack<T> extends abslist<T> {
     private int count;
     private Node<T> start;
     private Node<T> end;
