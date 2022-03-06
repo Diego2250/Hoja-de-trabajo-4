@@ -2,7 +2,7 @@
  * @author
  * Alejandro Azurdia, Diego Morales, Maria Ramirez
  *
- * Convertidor infix a postfix
+ * Clase que convierte infix a postfix
  */
 
 /**
