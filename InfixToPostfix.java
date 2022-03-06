@@ -13,7 +13,7 @@ import java.util.Stack;
 /**
  * Creacion de la clase
  */
-public class InfixToPosfix {
+public class InfixToPostfix {
 
     static int precedence(char c){
         switch (c){
