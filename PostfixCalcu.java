@@ -13,17 +13,19 @@ import java.util.Arrays;
  * Creacion de la clase
  */
 public class PostfixCalcu implements IPosfixCalcu {
-    private Stack<String> stack;
+    private absStack<String> stack;
+    private FactoryStack<String> s;
     private String[] numeros;
     private String[] operadores;
-    public PostfixCalcu() {
+    public PostfixCalcu(int tipoStack, int tipoList) {
+        s = new FactoryStack<String>();
+        stack = s.instanceStack(tipoStack, tipoList);
         numeros = new String[] {"0","1","2","3","4","5","6","7","8","9"};
         operadores = new String[] {"-","+","*","/"};
     }
 
     @Override
     public int Evaluate(String expresion) {
-        stack = new Stack<String>();
         int Tot=0;
         boolean bandera=false;
         try {

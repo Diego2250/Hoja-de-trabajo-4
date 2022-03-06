@@ -13,9 +13,9 @@ import java.util.ArrayList;
 /**
  * Creacion de la clase
  **/
-public class Stack<T> implements Istack<T> {
+public class absStack<T> implements Istack<T> {
     private ArrayList<T> core;
-    public Stack () {
+    public absStack () {
         core = new ArrayList<T>();
     }
     @Override

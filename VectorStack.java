@@ -7,7 +7,7 @@ import java.util.Vector;
  * Clase que simula el vector, hereda de la Stack
  */
 
-public class VectorStack<T> extends Stack<T> {
+public class VectorStack<T> extends absStack<T> {
     private Vector<T> core;
 
     /**
@@ -18,12 +18,37 @@ public class VectorStack<T> extends Stack<T> {
     }
 
     @Override
-    /**
-     * @param value valor que se ingresa
-     */
     public void push(T value){
         core.add(0, value);
     }
 
+    @Override
+    public T pull() {
+        if(!isEmpty()) {
+            return core.remove(0);
+        }else {
+            return null;
+        }
+
+    }
+
+    @Override
+    public T peek() {
+        if(!isEmpty()) {
+            return core.get(0);
+        }else{
+            return null;
+        }
+    }
+
+    @Override
+    public int count() {
+        return core.size();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return core.isEmpty();
+    }
 
 }

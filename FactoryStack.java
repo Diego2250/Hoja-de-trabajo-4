@@ -8,8 +8,8 @@ import java.awt.List;
  */
 
 public class FactoryStack<T> {
-    public Stack<T> instanceStack(int type, int type_list){
-        Stack<T> stack=null;
+    public absStack<T> instanceStack(int type, int type_list){
+        absStack<T> stack=null;
 
         if (type == 1){
             stack = new ArrayListStack<T>();

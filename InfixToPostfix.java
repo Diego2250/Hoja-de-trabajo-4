@@ -14,8 +14,15 @@ import java.util.Stack;
  * Creacion de la clase
  */
 public class InfixToPostfix {
+    private FactoryStack<Character> d;
+    absStack<Character> stack;
 
-    static int precedence(char c){
+    public InfixToPostfix(int tipoStack, int tipoLista){
+        d = new FactoryStack<Character>();
+        stack = d.instanceStack(tipoStack, tipoLista);
+    }
+
+    public int precedence(char c){
         switch (c){
             case '+':
             case '-':
@@ -29,24 +36,23 @@ public class InfixToPostfix {
         return -1;
     }
 
-    static String infixToPostFix(String expression){
+    public String infixToPostFix(String expression){
 
         String result = "";
-        Stack<Character> stack = new Stack<>();
         for (int i = 0; i <expression.length() ; i++) {
             char c = expression.charAt(i);
 
             //check if char is operator
             if(precedence(c)>0){
                 while(stack.isEmpty()==false && precedence(stack.peek())>=precedence(c)){
-                    result += stack.pop();
+                    result += stack.pull();
                 }
                 stack.push(c);
             }else if(c==')'){
-                char x = stack.pop();
+                char x = stack.pull();
                 while(x!='('){
                     result += x;
-                    x = stack.pop();
+                    x = stack.pull();
                 }
             }else if(c=='('){
                 stack.push(c);
@@ -55,13 +61,13 @@ public class InfixToPostfix {
                 result += c;
             }
         }
-        for (int i = 0; i <=stack.size() ; i++) {
-            result += stack.pop();
+        for (int i = 0; i <=stack.count() ; i++) {
+            result += stack.pull();
         }
         return result;
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         String exp = "A+B*(C^D-E)";
         System.out.println("Expresion Infix: " + exp);
         System.out.println("Expresion Postfix: " + infixToPostFix(exp));

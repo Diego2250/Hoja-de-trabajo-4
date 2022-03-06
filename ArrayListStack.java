@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 
 
-public class ArrayListStack<T> extends Stack<T> {
+public class ArrayListStack<T> extends absStack<T> {
 
     private ArrayList<T> miListaInterna;
 
