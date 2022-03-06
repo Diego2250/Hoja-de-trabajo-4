@@ -7,7 +7,7 @@ import java.awt.List;
  * Clase que implementa Factory para los stacks
  */
 
-public class FactoryStack {
+public class FactoryStack<T> {
     public Stack<T> instanceStack(int type, int type_list){
         Stack<T> stack=null;
 
@@ -15,7 +15,7 @@ public class FactoryStack {
             stack = new ArrayListStack<T>();
         }
         else if (type == 2){
-            stack = new ListStack<T>();
+            stack = new ListStack<T>(type_list);
         }
         else if (type == 3){
             stack = new VectorStack<T>();

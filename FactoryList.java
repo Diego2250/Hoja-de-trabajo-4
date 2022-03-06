@@ -15,7 +15,7 @@ public class FactoryList<T> {
             list = new SimpleList<T>();
         }
         else if (type == 2){
-            list = new DoubleList();
+            list = new DoubleList<T>();
         }
         return list;
     }
