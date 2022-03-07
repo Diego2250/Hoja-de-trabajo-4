@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea696409-9375-4cd2-ab04-53d4d42220c5" name="Changes" comment="" />
+    <list default="true" id="ea696409-9375-4cd2-ab04-53d4d42220c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ArrayListStackTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hoja-de-trabajo-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hoja-de-trabajo-4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/Hoja-de-trabajo-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/Hoja-de-trabajo-4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -23,26 +32,90 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25zQAp6LCvdFjUb4LBu7EpE55x3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HT2/Hoja-De-Trabajo-3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/HT2/Hoja-De-Trabajo-3" />
   </component>
-  <component name="RunManager">
-    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfixToPostfix" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayListStackTest2.pull">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Hoja-de-trabajo-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListStackTest2.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
+      <option name="METHOD_NAME" value="count" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListStackTest2.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
+      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListStackTest2.pull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
+      <option name="METHOD_NAME" value="pull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListStackTest2.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
+      <option name="METHOD_NAME" value="push" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InfixToPostfix" />
+        <item itemvalue="JUnit.ArrayListStackTest2.pull" />
+        <item itemvalue="JUnit.ArrayListStackTest2.push" />
+        <item itemvalue="JUnit.ArrayListStackTest2.isEmpty" />
+        <item itemvalue="JUnit.ArrayListStackTest2.count" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -54,7 +127,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646527295477</updated>
+      <workItem from="1646613949874" duration="3803000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
