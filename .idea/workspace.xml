@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea696409-9375-4cd2-ab04-53d4d42220c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DoubleListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InfixToPostfixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostfixCalcuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VectorStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostfixCalcu.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostfixCalcu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,52 +59,52 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InfixToPostfixTest.converter">
-    <configuration name="DoubleListTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VectorStackTest.isEmpty">
+    <configuration name="VectorStackTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
+      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
       <option name="METHOD_NAME" value="count" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleListTest.deleteAtEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorStackTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
-      <option name="METHOD_NAME" value="deleteAtEnd" />
+      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleListTest.deleteAtStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorStackTest.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
-      <option name="METHOD_NAME" value="deleteAtStart" />
+      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
+      <option name="METHOD_NAME" value="peek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorStackTest.pull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
+      <option name="METHOD_NAME" value="pull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixToPostfixTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InfixToPostfixTest" />
-      <option name="METHOD_NAME" value="converter" />
+      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
+      <option name="METHOD_NAME" value="push" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InfixToPostfixTest.converter" />
-        <item itemvalue="JUnit.DoubleListTest.deleteAtEnd" />
-        <item itemvalue="JUnit.DoubleListTest.count" />
-        <item itemvalue="JUnit.DoubleListTest.deleteAtStart" />
-        <item itemvalue="JUnit.DoubleListTest.get" />
+        <item itemvalue="JUnit.VectorStackTest.isEmpty" />
+        <item itemvalue="JUnit.VectorStackTest.count" />
+        <item itemvalue="JUnit.VectorStackTest.peek" />
+        <item itemvalue="JUnit.VectorStackTest.push" />
+        <item itemvalue="JUnit.VectorStackTest.pull" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646527295477</updated>
-      <workItem from="1646613949874" duration="5767000" />
+      <workItem from="1646613949874" duration="9610000" />
     </task>
     <servers />
   </component>

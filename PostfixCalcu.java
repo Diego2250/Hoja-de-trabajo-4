@@ -17,6 +17,7 @@ public class PostfixCalcu implements IPosfixCalcu {
     private FactoryStack<String> s;
     private String[] numeros;
     private String[] operadores;
+
     public PostfixCalcu(int tipoStack, int tipoList) {
         s = new FactoryStack<String>();
         stack = s.instanceStack(tipoStack, tipoList);
