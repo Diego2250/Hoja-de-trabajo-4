@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea696409-9375-4cd2-ab04-53d4d42220c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArrayListStackTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hoja-de-trabajo-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hoja-de-trabajo-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoubleListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InfixToPostfixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/Hoja-de-trabajo-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/Hoja-de-trabajo-4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hoja-de-trabajo-4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,49 +57,52 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListStackTest2.pull">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Hoja-de-trabajo-4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListStackTest2.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InfixToPostfixTest.converter">
+    <configuration name="DoubleListTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
+      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
       <option name="METHOD_NAME" value="count" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListStackTest2.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleListTest.deleteAtEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
-      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
+      <option name="METHOD_NAME" value="deleteAtEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListStackTest2.pull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleListTest.deleteAtStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
-      <option name="METHOD_NAME" value="pull" />
+      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
+      <option name="METHOD_NAME" value="deleteAtStart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListStackTest2.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListStackTest2" />
-      <option name="METHOD_NAME" value="push" />
+      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixToPostfixTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InfixToPostfixTest" />
+      <option name="METHOD_NAME" value="converter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayListStackTest2.pull" />
-        <item itemvalue="JUnit.ArrayListStackTest2.push" />
-        <item itemvalue="JUnit.ArrayListStackTest2.isEmpty" />
-        <item itemvalue="JUnit.ArrayListStackTest2.count" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InfixToPostfixTest.converter" />
+        <item itemvalue="JUnit.DoubleListTest.deleteAtEnd" />
+        <item itemvalue="JUnit.DoubleListTest.count" />
+        <item itemvalue="JUnit.DoubleListTest.deleteAtStart" />
+        <item itemvalue="JUnit.DoubleListTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646527295477</updated>
-      <workItem from="1646613949874" duration="3803000" />
+      <workItem from="1646613949874" duration="5767000" />
     </task>
     <servers />
   </component>
