@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Clase Main para visualizar los resultados y analizarlos.
  */
 
-public class Main {
+public class GUI {
     static InfixToPostfix conver;
     static PostfixCalcu calcu;
 
