@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea696409-9375-4cd2-ab04-53d4d42220c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PostfixCalcuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VectorStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostfixCalcu.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostfixCalcu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +33,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/HT2/Hoja-De-Trabajo-3" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,13 +47,39 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VectorStackTest.isEmpty">
-    <configuration name="VectorStackTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DoubleListTest">
+    <configuration name="DoubleListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DoubleListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostfixCalcuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostfixCalcuTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hoja-de-trabajo-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hoja-de-trabajo-4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
-      <option name="METHOD_NAME" value="count" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,43 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorStackTest.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hoja-de-trabajo-4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
-      <option name="METHOD_NAME" value="peek" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorStackTest.pull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hoja-de-trabajo-4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
-      <option name="METHOD_NAME" value="pull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorStackTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hoja-de-trabajo-4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorStackTest" />
-      <option name="METHOD_NAME" value="push" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoubleListTest" />
+        <item itemvalue="JUnit.VectorStackTest" />
+        <item itemvalue="JUnit.SimpleListTest" />
+        <item itemvalue="JUnit.PostfixCalcuTest" />
         <item itemvalue="JUnit.VectorStackTest.isEmpty" />
-        <item itemvalue="JUnit.VectorStackTest.count" />
-        <item itemvalue="JUnit.VectorStackTest.peek" />
-        <item itemvalue="JUnit.VectorStackTest.push" />
-        <item itemvalue="JUnit.VectorStackTest.pull" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646527295477</updated>
-      <workItem from="1646613949874" duration="9610000" />
+      <workItem from="1646613949874" duration="9653000" />
+      <workItem from="1653606184211" duration="172000" />
     </task>
     <servers />
   </component>
